@@ -1,0 +1,18 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-complete",
+      "version": "^1.0.0-SNAPSHOT"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-tlr",
+      "version": "latest"
+    }
+  ]
+}
