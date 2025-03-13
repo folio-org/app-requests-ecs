@@ -17,6 +17,10 @@
     {
       "name": "mod-tlr",
       "version": "latest"
-    }
+    },
+    {
+      "name": "mod-circulation-bff",
+      "version": "latest"
+    }	
   ]
 }
