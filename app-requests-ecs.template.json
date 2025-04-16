@@ -6,21 +6,21 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^1.0.0-SNAPSHOT"
+      "version": "^2.0.0"
     },
     {
       "name": "app-dcb",
-      "version": "^1.0.0-SNAPSHOT"
+      "version": "^1.1.0"
     }
   ],
   "modules": [
     {
       "name": "mod-tlr",
-      "version": "latest"
+      "version": "1.1.0"
     },
     {
       "name": "mod-circulation-bff",
-      "version": "latest"
+      "version": "1.1.0"
     }	
   ]
 }
