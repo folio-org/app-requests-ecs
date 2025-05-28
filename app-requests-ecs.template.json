@@ -3,24 +3,19 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
+  "dependencies":   [
+        {
       "name": "app-platform-complete",
       "version": "^2.1.0-SNAPSHOT"
     },
-    {
+        {
       "name": "app-dcb",
       "version": "^1.2.0-SNAPSHOT"
     }
   ],
-  "modules": [
-    {
-      "name": "mod-tlr",
-      "version": "latest"
-    },
-    {
-      "name": "mod-circulation-bff",
-      "version": "latest"
-    }	
-  ]
+  "modules": [  {
+    "name": "mod-tlr",
+    "version": "1.0.17"
+  }],
+  "uiModules": []
 }
