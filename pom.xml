@@ -6,7 +6,7 @@
     <artifactId>app-requests-ecs</artifactId>
     <groupId>org.folio</groupId>
     <description>Application for the ECS Requests installation</description>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
 
     <properties>
         <project.name>app-requests-ecs</project.name>
