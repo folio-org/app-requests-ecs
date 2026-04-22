@@ -6,29 +6,29 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^VERSION_^3.0.0-SNAPSHOT",
+      "version": "~3.3.0",
       "preRelease": "false"
     },
     {
       "name": "app-dcb",
-      "version": "^VERSION_^1.3.0-SNAPSHOT",
+      "version": "~2.0.0",
       "preRelease": "false"
     },
     {
       "name": "app-inventory",
-      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "version": "~1.0.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-tlr",
-      "version": "^VERSION_latest",
+      "version": "~1.2.0",
       "preRelease": "false"
     },
     {
       "name": "mod-circulation-bff",
-      "version": "^VERSION_latest",
+      "version": "~1.2.0",
       "preRelease": "false"
     }
   ]
