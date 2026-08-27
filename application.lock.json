@@ -1,16 +1,16 @@
 {
-  "id" : "app-requests-ecs-2.0.3",
+  "id" : "app-requests-ecs-2.0.4",
   "name" : "app-requests-ecs",
-  "version" : "2.0.3",
+  "version" : "2.0.4",
   "description" : "Application for the ECS Requests installation",
   "modules" : [ {
+    "id" : "mod-tlr-1.2.2",
+    "name" : "mod-tlr",
+    "version" : "1.2.2"
+  }, {
     "id" : "mod-circulation-bff-1.2.2",
     "name" : "mod-circulation-bff",
     "version" : "1.2.2"
-  }, {
-    "id" : "mod-tlr-1.2.1",
-    "name" : "mod-tlr",
-    "version" : "1.2.1"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -27,7 +27,7 @@
     "preRelease" : "false"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-tlr-1.2.1",
+    "id" : "mod-tlr-1.2.2",
     "name" : "Folio mod-tlr module",
     "requires" : [ {
       "id" : "users",
@@ -44,6 +44,18 @@
     }, {
       "id" : "circulation",
       "version" : "14.4"
+    }, {
+      "id" : "declare-item-lost",
+      "version" : "0.3"
+    }, {
+      "id" : "claim-item-returned",
+      "version" : "0.2"
+    }, {
+      "id" : "loan-policy-storage",
+      "version" : "2.4"
+    }, {
+      "id" : "loan-storage",
+      "version" : "7.4"
     }, {
       "id" : "circulation-item",
       "version" : "1.0"
@@ -288,7 +300,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/mod-tlr:1.2.1",
+      "dockerImage" : "folioorg/mod-tlr:1.2.2",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
