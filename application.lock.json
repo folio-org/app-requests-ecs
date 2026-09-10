@@ -1,16 +1,16 @@
 {
-  "id" : "app-requests-ecs-2.1.0-SNAPSHOT.100200000011185",
+  "id" : "app-requests-ecs-2.1.0-SNAPSHOT.100200000011541",
   "name" : "app-requests-ecs",
-  "version" : "2.1.0-SNAPSHOT.100200000011185",
+  "version" : "2.1.0-SNAPSHOT.100200000011541",
   "description" : "Application for the ECS Requests installation",
   "modules" : [ {
+    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2093",
+    "name" : "mod-circulation-bff",
+    "version" : "1.3.0-SNAPSHOT.2093"
+  }, {
     "id" : "mod-tlr-1.3.0-SNAPSHOT.2098",
     "name" : "mod-tlr",
     "version" : "1.3.0-SNAPSHOT.2098"
-  }, {
-    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2086",
-    "name" : "mod-circulation-bff",
-    "version" : "1.3.0-SNAPSHOT.2086"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -369,7 +369,7 @@
       }
     }
   }, {
-    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2086",
+    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2093",
     "name" : "Folio mod-circulation-bff module",
     "requires" : [ {
       "id" : "pick-slips",
@@ -725,7 +725,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-circulation-bff:1.3.0-SNAPSHOT.2086",
+      "dockerImage" : "folioci/mod-circulation-bff:1.3.0-SNAPSHOT.2093",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
