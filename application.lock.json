@@ -1,16 +1,16 @@
 {
-  "id" : "app-requests-ecs-2.1.0-SNAPSHOT.100200000011727",
+  "id" : "app-requests-ecs-2.1.0-SNAPSHOT.100200000011871",
   "name" : "app-requests-ecs",
-  "version" : "2.1.0-SNAPSHOT.100200000011727",
+  "version" : "2.1.0-SNAPSHOT.100200000011871",
   "description" : "Application for the ECS Requests installation",
   "modules" : [ {
+    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2158",
+    "name" : "mod-circulation-bff",
+    "version" : "1.3.0-SNAPSHOT.2158"
+  }, {
     "id" : "mod-tlr-1.3.0-SNAPSHOT.2124",
     "name" : "mod-tlr",
     "version" : "1.3.0-SNAPSHOT.2124"
-  }, {
-    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2122",
-    "name" : "mod-circulation-bff",
-    "version" : "1.3.0-SNAPSHOT.2122"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -369,7 +369,7 @@
       }
     }
   }, {
-    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2122",
+    "id" : "mod-circulation-bff-1.3.0-SNAPSHOT.2158",
     "name" : "Folio mod-circulation-bff module",
     "requires" : [ {
       "id" : "pick-slips",
@@ -545,12 +545,12 @@
         "methods" : [ "GET" ],
         "pathPattern" : "/circulation-bff/loans",
         "permissionsRequired" : [ "circulation-bff.loans.collection.get" ],
-        "modulePermissions" : [ "circulation.loans.collection.get", "user-tenants.collection.get", "search.instances.collection.get", "inventory-storage.items.item.get", "inventory-storage.items.collection.get", "inventory-storage.locations.item.get", "inventory-storage.locations.collection.get", "inventory-storage.service-points.item.get", "inventory-storage.service-points.collection.get", "inventory-storage.location-units.libraries.item.get", "inventory-storage.location-units.libraries.collection.get", "inventory-storage.location-units.campuses.item.get", "inventory-storage.location-units.campuses.collection.get", "inventory-storage.location-units.institutions.item.get", "inventory-storage.location-units.institutions.collection.get" ]
+        "modulePermissions" : [ "circulation.loans.collection.get", "user-tenants.collection.get", "inventory-storage.items.item.get", "inventory-storage.items.collection.get", "inventory-storage.locations.item.get", "inventory-storage.locations.collection.get", "inventory-storage.service-points.item.get", "inventory-storage.service-points.collection.get", "inventory-storage.location-units.libraries.item.get", "inventory-storage.location-units.libraries.collection.get", "inventory-storage.location-units.campuses.item.get", "inventory-storage.location-units.campuses.collection.get", "inventory-storage.location-units.institutions.item.get", "inventory-storage.location-units.institutions.collection.get" ]
       }, {
         "methods" : [ "GET" ],
         "pathPattern" : "/circulation-bff/loans/{id}",
         "permissionsRequired" : [ "circulation-bff.loans.item.get" ],
-        "modulePermissions" : [ "circulation.loans.item.get", "user-tenants.collection.get", "search.instances.collection.get", "inventory-storage.items.item.get", "inventory-storage.items.collection.get", "inventory-storage.locations.item.get", "inventory-storage.locations.collection.get", "inventory-storage.service-points.item.get", "inventory-storage.service-points.collection.get", "inventory-storage.location-units.libraries.item.get", "inventory-storage.location-units.libraries.collection.get", "inventory-storage.location-units.campuses.item.get", "inventory-storage.location-units.campuses.collection.get", "inventory-storage.location-units.institutions.item.get", "inventory-storage.location-units.institutions.collection.get" ]
+        "modulePermissions" : [ "circulation.loans.item.get", "user-tenants.collection.get", "inventory-storage.items.item.get", "inventory-storage.items.collection.get", "inventory-storage.locations.item.get", "inventory-storage.locations.collection.get", "inventory-storage.service-points.item.get", "inventory-storage.service-points.collection.get", "inventory-storage.location-units.libraries.item.get", "inventory-storage.location-units.libraries.collection.get", "inventory-storage.location-units.campuses.item.get", "inventory-storage.location-units.campuses.collection.get", "inventory-storage.location-units.institutions.item.get", "inventory-storage.location-units.institutions.collection.get" ]
       }, {
         "methods" : [ "POST" ],
         "pathPattern" : "/circulation-bff/loans/check-in-by-barcode",
@@ -721,11 +721,11 @@
     "metadata" : {
       "user" : {
         "type" : "system",
-        "permissions" : [ "users.collection.get", "users.item.get", "inventory-storage.items.item.get", "inventory-storage.items.collection.get", "inventory-storage.holdings.item.get", "inventory-storage.holdings.collection.get", "inventory-storage.locations.item.get", "inventory-storage.locations.collection.get", "inventory-storage.service-points.item.get", "inventory-storage.service-points.collection.get", "inventory-storage.material-types.item.get", "inventory-storage.material-types.collection.get", "inventory-storage.instances.item.get", "inventory-storage.instances.collection.get", "inventory-storage.loan-types.collection.get", "inventory-storage.loan-types.item.get", "consortium-search.items.collection.get", "consortium-search.items.item.get", "tlr.ecs-request-external.post", "inventory-storage.location-units.libraries.item.get", "inventory-storage.location-units.libraries.collection.get", "inventory-storage.location-units.campuses.item.get", "inventory-storage.location-units.campuses.collection.get", "inventory-storage.location-units.institutions.item.get", "inventory-storage.location-units.institutions.collection.get", "circulation.check-in-by-barcode.post", "circulation-storage.loans.item.get", "circulation-storage.loans.collection.get", "circulation.loans.item.get", "circulation.loans.collection.get", "mod-settings.entries.item.get", "mod-settings.entries.collection.get", "mod-settings.global.read.circulation", "inventory.items.item.get", "inventory.items.collection.get", "requests-mediated.loans.check-in-by-barcode.execute" ]
+        "permissions" : [ "users.collection.get", "users.item.get", "inventory-storage.items.item.get", "inventory-storage.items.collection.get", "inventory-storage.holdings.item.get", "inventory-storage.holdings.collection.get", "inventory-storage.locations.item.get", "inventory-storage.locations.collection.get", "inventory-storage.service-points.item.get", "inventory-storage.service-points.collection.get", "inventory-storage.material-types.item.get", "inventory-storage.material-types.collection.get", "inventory-storage.instances.item.get", "inventory-storage.instances.collection.get", "inventory-storage.loan-types.collection.get", "inventory-storage.loan-types.item.get", "consortium-search.items.collection.get", "consortium-search.items.item.get", "consortium-search.items.batch.collection.get", "tlr.ecs-request-external.post", "inventory-storage.location-units.libraries.item.get", "inventory-storage.location-units.libraries.collection.get", "inventory-storage.location-units.campuses.item.get", "inventory-storage.location-units.campuses.collection.get", "inventory-storage.location-units.institutions.item.get", "inventory-storage.location-units.institutions.collection.get", "circulation.check-in-by-barcode.post", "circulation-storage.loans.item.get", "circulation-storage.loans.collection.get", "circulation.loans.item.get", "circulation.loans.collection.get", "mod-settings.entries.item.get", "mod-settings.entries.collection.get", "mod-settings.global.read.circulation", "inventory.items.item.get", "inventory.items.collection.get", "requests-mediated.loans.check-in-by-barcode.execute" ]
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-circulation-bff:1.3.0-SNAPSHOT.2122",
+      "dockerImage" : "folioci/mod-circulation-bff:1.3.0-SNAPSHOT.2158",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
