@@ -1,12 +1,12 @@
 {
-  "id" : "app-requests-ecs-2.0.7",
+  "id" : "app-requests-ecs-2.0.8",
   "name" : "app-requests-ecs",
-  "version" : "2.0.7",
+  "version" : "2.0.8",
   "description" : "Application for the ECS Requests installation",
   "modules" : [ {
-    "id" : "mod-circulation-bff-1.2.4",
+    "id" : "mod-circulation-bff-1.2.5",
     "name" : "mod-circulation-bff",
-    "version" : "1.2.4"
+    "version" : "1.2.5"
   }, {
     "id" : "mod-tlr-1.2.3",
     "name" : "mod-tlr",
@@ -366,7 +366,7 @@
       }
     }
   }, {
-    "id" : "mod-circulation-bff-1.2.4",
+    "id" : "mod-circulation-bff-1.2.5",
     "name" : "Folio mod-circulation-bff module",
     "requires" : [ {
       "id" : "pick-slips",
@@ -722,7 +722,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/mod-circulation-bff:1.2.4",
+      "dockerImage" : "folioorg/mod-circulation-bff:1.2.5",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
